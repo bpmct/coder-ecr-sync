@@ -4,7 +4,7 @@ Workaround to get AWS ECR working in Coder / example of scripting with the [Code
 
 Run this script (in a cron operation) to update your registry in Coder with the latest ECR password. It also edits the registry name to include the date, so it is easy to debug if/when the script failed. Comment/edit that line to keep your existing registry name.
 
-## Context:
+## Context
 
 Coder currently only supports password-based authentication to registries. AWS ECR can [generate a password token](https://docs.aws.amazon.com/cli/latest/reference/ecr/get-login-password.html) but it only lasts 12 hours. This script, if ran in a cron operation, will update the Coder registry with the latest password. (username should remain as `AWS`).
 
