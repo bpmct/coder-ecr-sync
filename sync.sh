@@ -3,6 +3,9 @@
 # a simple script to edit a registry in Coder, and update the
 # password with the latest AWS ECR password token.
 
+# run this periodically (every <12 hours) to keep the ECR
+# authentication up to date in Coder
+
 # uses Coder's REST API: https://apidocs.coder.com
 
 # you can set the variables here
