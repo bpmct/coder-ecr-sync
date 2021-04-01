@@ -2,7 +2,7 @@
 
 Workaround to get AWS ECR working in Coder / example of scripting with the [Coder REST API](https://apidocs.coder.com).
 
-Run this script (in a cron operation) to update your registry in Coder with the latest ECR password.
+Run this script (in a cron operation) to update your registry in Coder with the latest ECR password. It also edits the registry name to include the date, so it is easy to debug if/when the script failed. Comment/edit that line to keep your existing registry name.
 
 ## Context:
 
