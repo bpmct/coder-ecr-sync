@@ -13,14 +13,18 @@ Run this script to update your registry in Coder with the latest ECR password.
 - These values. Set inside the script or as env vars:
 
 ```text
-CODER_URL. ex. "https://coder.yoursite.com"
+CODER_URL
+(ex. "https://coder.yoursite.com")
 
-CODER_API_TOKEN. get it with coder-cli:
+CODER_API_TOKEN
+(get it with coder-cli):
 $ coder tokens create ecr-sync
 
-CODER_ORG_ID. get org ID at:
+CODER_ORG_ID
+(visit this coder when you are logged in):
 https://coder.yoursite.com/api/v0/orgs
 
-CODER_REGISTRY_ID. get it at:
+CODER_REGISTRY_ID
+(visit this coder when you are logged in):
 visit: https://coder.yoursite.com/api/v0/registries?org={orgid}
 ```
