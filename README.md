@@ -26,5 +26,5 @@ https://coder.yoursite.com/api/v0/orgs
 
 CODER_REGISTRY_ID
 (visit this coder when you are logged in):
-visit: https://coder.yoursite.com/api/v0/registries?org={orgid}
+https://coder.yoursite.com/api/v0/registries?org={orgid}
 ```
